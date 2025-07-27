@@ -36,14 +36,14 @@ Each table includes primary and foreign keys to ensure relational integrity.
 ---
 
 ## 🛠️ How to Set Up
-
+```
 ### 🧾 1. Set up MySQL Database
 
 1. Start your MySQL server.
 2. Open a MySQL client (like MySQL Workbench or command line).
 3. Execute the schema file:
 
-```sql
+sql
 SOURCE path/to/HospitalSchema.sql;
 
 2. Run the Java Project
